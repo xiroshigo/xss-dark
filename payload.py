@@ -22,7 +22,7 @@ class PayloadsInfo():
     def __init__(self,payload_file_path=None):
 
         if payload_file_path is None:
-            payload_file_path = "https://raw.githubusercontent.com/xadhrit/xira/main/payload.json"
+            payload_file_path = "https://github.com/darknetUzb/xss-dark/blob/main/payload.json"
             if not payload_file_path.lower().endswith(".json"):
                  raise  FileNotFoundError(f"Incorrect Json file extension for payloads")
             if "http://" == payload_file_path[:7].lower() or "https://" == payload_file_path[:8].lower():

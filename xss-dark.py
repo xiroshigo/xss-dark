@@ -41,8 +41,8 @@ def banner():
     xira_banner = Figlet(justify='left')
     xb = Figlet(font='slant', justify='left' )
     print(  R + xb.renderText('XSS-dark'))
-    print( G + "~#  Dasturchi: @darknet_off1cial ")
-    print( Y + "~# Kanal: @termux_private ")
+    print( G + "~#  Dasturchi: @hiroshigo ")
+    print( Y + "~# Kanal: @xiroshigo_py ")
 banner()
 
 def custom_cookie(url):
